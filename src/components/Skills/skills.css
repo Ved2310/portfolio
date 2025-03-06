@@ -1,0 +1,121 @@
+#skills {
+    width: 100%;
+    max-width: 65rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.skillTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePic {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.aboutCards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.aboutCard {
+    background: #FAF9F6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 15rem;
+    transition: transform 0.3s ease;
+}
+
+.aboutCard:hover {
+    transform: translateY(-5px);
+}
+
+.aboutIcon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.aboutCard h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.aboutCard p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.aboutLink {
+    font-size: 0.9rem;
+    color: blue;
+    text-decoration: underline;
+    
+   
+}
+
+.skillDesc {
+    font-size: 1rem;
+    max-width: 50rem;
+    margin: 2rem auto;
+    line-height: 1.5;
+}
+
+.resumeButton {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.resumeButton:hover {
+    background: #222;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+@media (max-width: 600px) {
+    .ReactModal__Content {
+        width: 90% !important;
+        padding: 20px !important;
+    }
+}
+
+nav {
+    z-index: 1050 !important;
+}

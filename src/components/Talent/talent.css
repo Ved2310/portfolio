@@ -1,0 +1,93 @@
+#talent {
+    width: 100%;
+    max-width: 65rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.skillTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.aboutCards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+
+
+.aboutCard {
+    background: #FAF9F6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 18rem;
+    transition: transform 0.3s ease background-color 0.3s ease;;
+}
+
+.aboutCard:hover {
+    transform: translateY(-5px);
+    background-color: #f1ece6; /* Off-white background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    
+}
+
+.aboutCard h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+/*
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skill-item {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    color: #333;
+
+}
+*/
+
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem; /* Adjust spacing between items */
+}
+
+.skill-item {
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    min-width: 6rem; /* Ensures skills have consistent width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item::before {
+    content: "✔"; /* Checkmark symbol */
+    font-weight: bold; /* Make only the checkmark bold */
+    margin-right: 0.5rem; /* Add spacing between checkmark and text */
+}
+

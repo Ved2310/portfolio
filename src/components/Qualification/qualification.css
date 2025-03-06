@@ -1,0 +1,96 @@
+.qualification {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Tabs */
+.qualification-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.tab {
+    background: none;
+    border: 2px solid #000;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background:#f1ece6;
+}
+
+.active {
+    background: gray;
+    color: #fff;
+}
+
+/* Qualification Timeline */
+.qualification-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Vertical Line */
+.qualification-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #f1ece6;
+    transform: translateX(-50%);
+}
+
+/* Content Layout */
+.qualification-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #000;
+}
+
+.qualification-box {
+    background: #faf9f6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    position: relative;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.qualification-box:hover {
+    background: #FFFFF0;
+    transform: scale(1.02);
+}
+
+.qualification-box.left {
+    text-align: right;
+    align-self: flex-start;
+}
+
+.qualification-box.right {
+    text-align: left;
+    align-self: flex-end;
+}
