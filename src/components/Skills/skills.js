@@ -10,13 +10,19 @@ const Skills = () => {
 
     // Sample certificates & papers data (Replace with actual data)
     const certificates = [
-        { name: "AWS Certified Developer", link: "https://example.com/aws-cert" },
-        { name: "Google Cloud Engineer", link: "https://example.com/google-cert" },
+        { name: "AWS Services for Solution Architect Associate", link: "https://github.com/Ved2310/portfolio/blob/main/src/AWS%20Certificate.pdf" },
+        { name: "Android Oreo Developer Course", link: "https://github.com/Ved2310/portfolio/blob/main/src/Android%20App%20Developer%20Cert.pdf" },
+        { name: "Python for Everybody", link: "#" },
+        { name: "Associate Google Cloud Engineer (Ongoing)", link: "#" },
+        { name: "Astronomer DAG Flow (Ongoing)", link: "#" },
+        
     ];
 
     const papers = [
-        { name: "AI and Future Trends", link: "https://drive.google.com/file/d/1Q9KiL8xzs4mXltO2A-L1uFMTUwlu90jz/view?usp=drive_link" },
-        { name: "Blockchain Security", link: "https://example.com/blockchain-paper" },
+        { name: "Stock Price Prediction Using Linear Regression", link: "https://github.com/Ved2310/portfolio/blob/main/src/IJPREMS31000001269.pdf" },
+        { name: "Yolov4: Social-Distancing & face-mask detection I", link: "https://github.com/Ved2310/portfolio/blob/main/src/Social%20Distance%20(IJARESM).pdf" },
+        { name: "Yolov4: Social-Distancing & face-mask detection II", link: "https://github.com/Ved2310/portfolio/blob/main/src/Social%20Distance%20(Samridhi%20IJ).pdf" },
+        { name: "Animal Rescue Team Application (ART)", link: "https://github.com/Ved2310/portfolio/blob/main/src/ART%20Research%20Paper%20(IJARSCT).pdf" },
     ];
 
     // Function to open the modal

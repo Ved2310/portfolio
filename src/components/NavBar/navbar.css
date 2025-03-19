@@ -93,3 +93,15 @@
     object-fit: cover;
     height: 1.8rem;
 }
+
+@media screen and (max-width:720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
+}

@@ -68,7 +68,7 @@ const projectsData = [
   }
 ];
 
-const categories = ["All", "Web Development", "Data Science/Analytics", "Data Structure",  "Mobile App", "AI"];
+const categories = ["All"]; //"Web Development", "Data Science/Analytics", "Data Structure",  "Mobile App", "AI"
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
