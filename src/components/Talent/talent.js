@@ -20,7 +20,15 @@ const skillsData = [
   },
   {
     title: "Cloud/Data Analytics",
-    skills: ["GCP", "AWS", "Apache Airflow (DAG)"],
+    skills: [    
+      "GCP",
+      "AWS",
+      "Apache Airflow (DAG)",
+      "PySpark",
+      "AWS Glue",
+      "Amazon S3",
+      "Amazon Redshift",
+      "Tableau"],
   },
 ];
 

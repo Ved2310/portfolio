@@ -94,7 +94,19 @@
     height: 1.8rem;
 }
 
-@media screen and (max-width:720px) {
+/* @media screen and (max-width:720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
+} */
+
+@media screen and (max-width:885px) {
     .mobMenu {
         display: flex;
     }

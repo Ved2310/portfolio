@@ -7,6 +7,7 @@ import movie from "../../assets/movie.png"
 import animal from "../../assets/animal.png"
 import social from "../../assets/social.png"
 import help from "../../assets/help.png"
+import data from "../../assets/data.png"
 
 
 const projectsData = [
@@ -28,11 +29,10 @@ const projectsData = [
   },
   {
     title: "Social Distance and Face Mask Detection using Yolov4",
-    category: "Data Science",
+    category: "Data Science/Analytics",
     description: "A deep-learning system using YOLOv4 and CNN to detect social distancing violations and mask compliance via surveillance footage, ensuring real-time monitoring and safety.",
     image: social,
-    codeLink: "#",
-    demoLink: "#",
+   
   },
   {
     title: "Animal Rescue Team(ART)",
@@ -52,11 +52,11 @@ const projectsData = [
   },
   {
     title: "Help-It",
-    category: "Mobile App",
+    category: "Web Development",
     description: "A student-friendly website that curates the best learning resources through peer recommendations, upvotes, and personalized rankings using YouTube and Google APIs.",
     image: help, 
-    codeLink: "#",
-    demoLink: "#",
+    codeLink: "https://github.com/Ved2310/HelpIt",
+   
   },
   {
     title: "Movie Recommendation System",
@@ -64,11 +64,25 @@ const projectsData = [
     description: "A poject in java language where the movies can be uploaded and the user can search the movies according to name , genre language, rating and category. Used linkedlist, stack and searching in AVL tree.",
     image: movie,
     codeLink: "https://github.com/Ved2310/Movie-Recommendation",
-    demoLink: "#",
-  }
+  
+  },
+  {
+    title: "Real-Time Forex ETL Pipeline",
+    category: "Data Science/Analytics",
+    description: "Real-time Forex data pipeline using AWS, PySpark, and Redshift with Tableau visualization for scalable financial analytics.",
+    image: data,
+    codeLink: "https://github.com/Ved2310/real-time-forex-data-pipeline",
+    demoLink: "https://youtu.be/fDccTCeGRF8",
+  },
 ];
 
-const categories = ["All"]; //"Web Development", "Data Science/Analytics", "Data Structure",  "Mobile App", "AI"
+const categories = [
+  "All",
+  "Web Development",
+  "Data Science/Analytics",
+  "Data Structure",
+  "Mobile App"
+];
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
