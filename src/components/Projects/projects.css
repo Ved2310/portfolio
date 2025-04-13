@@ -22,9 +22,11 @@
 /* Filters */
 .project-filters {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 .filter {
@@ -115,3 +117,20 @@
 .project-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+    .project-filters {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .project-card {
+      width: 100%; /* make card full-width on mobile */
+      height: auto; /* allow it to grow naturally */
+    }
+  }
