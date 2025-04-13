@@ -5,6 +5,14 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
 }
 
 .bg {
@@ -19,12 +27,16 @@
 .introContent {
     height: 60vh;
     width: 50%;
+    z-index: 1;
     padding: 1rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+
+
 }
 
 .introImage {
@@ -33,9 +45,10 @@
 }
 
 .hello {
-    margin-top: 20px;
+    /*margin-top: 5px;*/
     font-size: 1.75rem;
     font-weight: 100;
+    display: block;
 }
 
 .introName {
@@ -46,6 +59,7 @@
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+
 }
 
 .btn {
@@ -78,6 +92,16 @@
     width: 1.2rem; 
     margin: 1rem;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);  /* ✅ Semi-transparent dark overlay */
+    z-index: 0; /* below text but above image */
+  }
 
 @media screen and (max-width: 840px) {
     .bg {
@@ -117,4 +141,68 @@
     .hello {
         margin-top: 250px;
     }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #intro {
+        flex-direction: column; /* ✅ stack vertically */
+        height: auto;
+    }
+
+    .introContent, .introImage {
+        width: 100%; /* ✅ full width on mobile */
+    }
+
+    .introContent {
+        padding-top: 2.5rem;  /* ⬆️ Pushes content up */
+        margin-bottom: 1rem;
+    }
+
+    .introImage {
+        order: 2; /* show below */
+        justify-content: center;
+        margin-top: 2rem; /* Ensures image stays well below the text */
+        display: flex;
+    
+    }
+
+    .bg {
+        position: relative; /* not absolute so it doesn’t overlap */
+        height: auto;
+        width: 80%;
+        max-width: 300px;
+    }
+    .hello {
+        margin-top: 1rem; /* 🔼 Move it up */
+        
+      }
+    
+    .introContent {
+        padding-top: 2rem;  /* (optional) control spacing from top */
+
+      }
+    .btn {
+        display: none; /* ✅ Hide button on mobile */
+      }
+}
+
+@media screen and (min-width: 769px) {
+    .bg {
+        position: absolute;
+        top: 0rem;
+        right: 180px;
+        z-index: -1;
+        object-fit: cover;
+        height: 85vh;
+    }
+    .hello {
+        margin-top: -2rem; /* 🔼 move it further up */
+      }
+    
+    .introContent {
+        padding-top: 2rem; /* Optional: shift the whole block a bit higher */
+      }
+
 }
