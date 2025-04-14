@@ -103,6 +103,13 @@
     z-index: 0; /* below text but above image */
   }
 
+  .introHighlight {
+    color: #f5deb3; /* same as .introName */
+    font-weight: 600; /* optional: to make it stand out slightly */
+    margin-right: 0.3rem; /* spacing between 'a' and 'Data Engineer' */
+  }
+
+
 @media screen and (max-width: 840px) {
     .bg {
         right: -10vw
