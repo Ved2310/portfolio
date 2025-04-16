@@ -63,7 +63,7 @@ const Skills = () => {
             </div>
 
             <p className="skillDesc">
-            As a child, I was captivated by movies featuring coding wizards, finding their ability to interact with computers utterly mesmerizing—a unique connection between myself and the machine. Dreaming of becoming a software developer, I yearned to bring my visions to life through lines of code. As I begin to share my journey, I invite you to get to know me better! <strong>Welcome to my portfolio!</strong>
+            As a child, I was captivated by tech-driven stories and the idea of solving complex problems through code. That fascination grew into a passion for data—how it's stored, moved, and transformed to unlock real-world insights. Now, as an aspiring data engineer, I’m driven to build powerful, scalable pipelines that turn raw information into meaningful impact. This portfolio is a reflection of that journey. Welcome, and thank you for getting to know me better! <strong>Welcome to my portfolio!</strong>
             </p>
 
             <a href="https://raw.githubusercontent.com/Ved2310/portfolio/main/src/media/Vedashree_Intern.pdf" download className="resumeButton">

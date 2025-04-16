@@ -13,8 +13,8 @@ const Intro = () => {
                 <span className="hello">Hello,</span>
                 <span className="introText">
                 I'm<span className="introName"> Vedashree</span><br />
-                <span className="introHighlight">a</span> Software Developer </span>
-                <p className="introPara">I'm a Computer Science graduate student with 2.5+ years of experience in scalable app development, mobile SDKs, and cloud solutions. Passionate about building high-performance, user-centric applications, I'm eager to bring my expertise in Java, Flutter, and Google Cloud to innovative teams. I'm eager to contribute my expertise to dynamic engineering teams in Web, Mobile, and Cloud development. Let's innovate together! experience in creating</p>
+                <span className="introHighlight">a</span> Data Engineer </span>
+                <p className="introPara">I'm a Computer Science graduate student with 2.5+ years of experience in the fintech industry, now transitioning into data engineering. I'm passionate about building real-time, scalable data pipelines, I’ve worked with PySpark, AWS Glue, Redshift, and S3, and recently completed a certification in Apache Airflow DAG authoring. I'm currently pursuing Associate Cloud Engineer on Google Cloud. I'm excited to contribute to data-driven teams building modern, cloud-native data platforms!</p>
                 <Link><button className="btn"><img src={btnImg} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
             </div>
             <div className="introImage">
